@@ -13,6 +13,12 @@
 
 }
 
+.header{
+    background-image: url('../images/developer.png'),url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+
+}
 /* nav style */
 nav{
     display: flex;
@@ -51,4 +57,27 @@ nav li a{
     text-decoration: none;
     font-size: 20px;
     /* color:#474747; */
+}
+/* banner style */
+.ban-grettings{
+
+font-size: 45px;
+font height: 600;
+}
+.ban-title{
+    font-weight: bold;
+    font-size: 85px;
+}
+.ban-picture{
+    width: 500px;
+}
+.banner
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 230px;
+}
+.banner-content{
+    max-width: 580px;
+
 }
